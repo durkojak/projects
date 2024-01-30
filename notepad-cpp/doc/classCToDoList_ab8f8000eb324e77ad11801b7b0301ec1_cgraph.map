@@ -1,0 +1,18 @@
+<map id="CToDoList::contextMenu" name="CToDoList::contextMenu">
+<area shape="rect" id="node1" title="Abstraktná metóda contextMenu ukáže užívateľovi možné akcie s daným druhom poznámky a zoberie user in..." alt="" coords="5,259,184,285"/>
+<area shape="rect" id="node2" href="$classCNote.html#aa8eed2202f9ae14ccca82143be5165a4" title=" " alt="" coords="272,208,388,235"/>
+<area shape="rect" id="node4" href="$classCToDoList.html#af41b2349b5d8e365d335cf6be9e95ec1" title=" " alt="" coords="257,259,403,285"/>
+<area shape="rect" id="node5" href="$classCNote.html#ad3962099eed921614dcb5a86aeaae441" title=" " alt="" coords="256,512,404,539"/>
+<area shape="rect" id="node9" href="$classCToDoList.html#a14677feac1fc66ebfd707a6456630c11" title=" " alt="" coords="239,461,421,488"/>
+<area shape="rect" id="node10" href="$classCToDoList.html#a2bbf13f97844d840bee96b32494f4f55" title=" " alt="" coords="256,5,404,32"/>
+<area shape="rect" id="node11" href="$classCNote.html#ac72e9479f786e6c250367d1cc2bbef66" title=" " alt="" coords="268,56,392,83"/>
+<area shape="rect" id="node12" href="$classCNote.html#aab06d3bcc8c43dfffd3619727e6f674e" title=" " alt="" coords="270,309,390,336"/>
+<area shape="rect" id="node13" href="$classCNote.html#a9ad06c6903fce75818c872d3cc21fdab" title=" " alt="" coords="246,360,414,387"/>
+<area shape="rect" id="node14" href="$classCToDoList.html#a5648dc4aff4e0c6fd01299d3c78b3b51" title="Metóda remainingTasks vypíše zostávajúce úlohy." alt="" coords="232,411,428,437"/>
+<area shape="rect" id="node15" href="$classCNote.html#ac649335844850025c581e6aeb736d8c8" title=" " alt="" coords="259,107,401,133"/>
+<area shape="rect" id="node16" href="$classCToDoList.html#aee48b72f2fcecb596f5d599222b84684" title=" " alt="" coords="243,157,417,184"/>
+<area shape="rect" id="node3" href="$classCNote.html#a5aef1a2354a3b97bf3317b3b620917f8" title="Metóda logRecord slúži na zápis do logu danej poznámky." alt="" coords="476,183,611,209"/>
+<area shape="rect" id="node6" href="$classCDate.html#a4f9ea4e835bf194b9edd3a55e141a3c3" title=" " alt="" coords="485,512,601,539"/>
+<area shape="rect" id="node7" href="$classCDate.html#a32f2f1cf07e171905b3b5ea6bef23942" title=" " alt="" coords="478,563,609,589"/>
+<area shape="rect" id="node8" href="$classCDate.html#a5febd1f1a13b84748c562169e203d8ea" title=" " alt="" coords="485,461,602,488"/>
+</map>

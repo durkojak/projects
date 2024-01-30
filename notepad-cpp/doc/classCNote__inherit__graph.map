@@ -1,0 +1,7 @@
+<map id="CNote" name="CNote">
+<area shape="rect" id="node1" title="Abstraktná parent trieda CNote reprezentuje poznámku. Má funkcie, ktoré majú všetky poznámky spoločné..." alt="" coords="262,5,421,288"/>
+<area shape="rect" id="node2" href="$classCRecipe.html" title="Trieda CRecipe reprezentuje poznámku vo forme receptu." alt="" coords="5,336,168,604"/>
+<area shape="rect" id="node3" href="$classCRegular.html" title="Trieda CRegular reprezentuje obyčajnú textovú poznámku." alt="" coords="193,358,325,582"/>
+<area shape="rect" id="node4" href="$classCShoppingList.html" title="Trieda CShoppingList reprezentuje poznámku vo forme nákupného zoznamu." alt="" coords="349,351,499,589"/>
+<area shape="rect" id="node5" href="$classCToDoList.html" title="Trieda CToDoList reprezentuje poznámku vo forme to do listu." alt="" coords="524,336,673,604"/>
+</map>

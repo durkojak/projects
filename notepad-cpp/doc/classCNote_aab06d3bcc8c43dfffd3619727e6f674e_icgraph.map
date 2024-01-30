@@ -1,0 +1,15 @@
+<map id="CNote::getTitle" name="CNote::getTitle">
+<area shape="rect" id="node1" title=" " alt="" coords="260,284,380,311"/>
+<area shape="rect" id="node2" href="$classCRecipe.html#a8fdaa377a866d98045a7162b23e11e74" title="Abstraktná metóda contextMenu ukáže užívateľovi možné akcie s daným druhom poznámky a zoberie user in..." alt="" coords="25,5,193,32"/>
+<area shape="rect" id="node3" href="$classCRegular.html#a6c99dab48e1e535cf4fcb7ce8f24d0b0" title="Abstraktná metóda contextMenu ukáže užívateľovi možné akcie s daným druhom poznámky a zoberie user in..." alt="" coords="21,56,196,83"/>
+<area shape="rect" id="node4" href="$classCShoppingList.html#ae01e7f1523ea62f6fc676e4dfd157145" title="Abstraktná metóda contextMenu ukáže užívateľovi možné akcie s daným druhom poznámky a zoberie user in..." alt="" coords="5,107,212,133"/>
+<area shape="rect" id="node5" href="$classCToDoList.html#ab8f8000eb324e77ad11801b7b0301ec1" title="Abstraktná metóda contextMenu ukáže užívateľovi možné akcie s daným druhom poznámky a zoberie user in..." alt="" coords="19,157,198,184"/>
+<area shape="rect" id="node6" href="$classCRecipe.html#a1192621775ec021812b5d667691332f1" title=" " alt="" coords="28,208,189,235"/>
+<area shape="rect" id="node7" href="$classCRegular.html#af056f6f9ca1ca616f2fcde68b525cb17" title=" " alt="" coords="25,259,192,285"/>
+<area shape="rect" id="node8" href="$classCShoppingList.html#a27fb22f5102ccf49dda985429b91869b" title=" " alt="" coords="9,309,209,336"/>
+<area shape="rect" id="node9" href="$classCToDoList.html#a18d97e7f7a02df2f690bd04799340423" title=" " alt="" coords="23,360,195,387"/>
+<area shape="rect" id="node10" href="$classCRecipe.html#af8219fa7ba05b4b7c172d9ea7a284d10" title="Abstraktná metóda exportNote prichystá text poznámky určenej na export." alt="" coords="31,411,187,437"/>
+<area shape="rect" id="node11" href="$classCRegular.html#a73b4d10fe4222fca634ff325745e0d36" title="Abstraktná metóda exportNote prichystá text poznámky určenej na export." alt="" coords="27,461,190,488"/>
+<area shape="rect" id="node12" href="$classCShoppingList.html#a17dfb2242611266bf8c60ed8fc0477a2" title="Abstraktná metóda exportNote prichystá text poznámky určenej na export." alt="" coords="11,512,206,539"/>
+<area shape="rect" id="node13" href="$classCToDoList.html#a3ab84058181210394ba047499c1bf7a0" title="Abstraktná metóda exportNote prichystá text poznámky určenej na export." alt="" coords="25,563,192,589"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="CFilter" name="CFilter">
+<area shape="rect" id="node1" title="Trieda CFilter je parent abstraktná trieda filtrov." alt="" coords="339,5,473,97"/>
+<area shape="rect" id="node2" href="$classCDateFilter.html" title="Trieda CDateFilter filtruje na základe dátumu vzniku poznámky." alt="" coords="5,145,140,252"/>
+<area shape="rect" id="node3" href="$classCDirectoryFilter.html" title="Trieda CDirectoryFilter filtruje na základe directories v ktorých poznámky sú" alt="" coords="165,145,314,252"/>
+<area shape="rect" id="node4" href="$classCNameFilter.html" title="Trieda CNameFilter filtruje na základe mien poznámok." alt="" coords="339,145,473,252"/>
+<area shape="rect" id="node5" href="$classCTagFilter.html" title="Trieda CTagFilter filtruje poznámky na základe tagov." alt="" coords="497,145,632,252"/>
+<area shape="rect" id="node6" href="$classCTextFilter.html" title="Trieda CTextFilter zistí, či sa v danej poznámke vyskytuje hľadaný text." alt="" coords="656,145,791,252"/>
+</map>

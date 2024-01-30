@@ -1,0 +1,5 @@
+*****
+REGULAR
+NotesManager
+Toto je aplikacia vytvorena Jakubom Durkovicom
+*****

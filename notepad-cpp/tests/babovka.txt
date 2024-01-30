@@ -1,0 +1,12 @@
+*****
+RECIPE
+Babovka
+INGREDIENTS
+polotucne mlieko
+vajcia z chovu
++++++
+STEPS
+Zmixovat ingrediencie
+Upiect babovku
+Zjest babovku
+*****

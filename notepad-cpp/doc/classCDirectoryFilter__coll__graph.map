@@ -1,0 +1,4 @@
+<map id="CDirectoryFilter" name="CDirectoryFilter">
+<area shape="rect" id="node1" title="Trieda CDirectoryFilter filtruje na základe directories v ktorých poznámky sú" alt="" coords="5,145,155,252"/>
+<area shape="rect" id="node2" href="$classCFilter.html" title="Trieda CFilter je parent abstraktná trieda filtrov." alt="" coords="13,5,147,97"/>
+</map>

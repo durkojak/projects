@@ -1,0 +1,12 @@
+*****
+TODOLIST
+Ulohy
+Ist na nakup
+X
+Dokoncit progtest
+✓
+Zavolat babke
+X
+Uvarit obed
+✓
+*****

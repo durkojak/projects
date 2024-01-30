@@ -1,0 +1,17 @@
+<map id="CRecipe::contextMenu" name="CRecipe::contextMenu">
+<area shape="rect" id="node1" title="Abstraktná metóda contextMenu ukáže užívateľovi možné akcie s daným druhom poznámky a zoberie user in..." alt="" coords="5,233,173,260"/>
+<area shape="rect" id="node2" href="$classCRecipe.html#af5bb6cfec78c1f2ce285d357fa584319" title=" " alt="" coords="234,157,407,184"/>
+<area shape="rect" id="node4" href="$classCRecipe.html#af1ea5c33f33da20aa04d778d92ae7990" title=" " alt="" coords="253,208,389,235"/>
+<area shape="rect" id="node5" href="$classCNote.html#aa8eed2202f9ae14ccca82143be5165a4" title=" " alt="" coords="263,360,379,387"/>
+<area shape="rect" id="node6" href="$classCNote.html#ad3962099eed921614dcb5a86aeaae441" title=" " alt="" coords="247,461,395,488"/>
+<area shape="rect" id="node10" href="$classCNote.html#ac72e9479f786e6c250367d1cc2bbef66" title=" " alt="" coords="259,411,383,437"/>
+<area shape="rect" id="node11" href="$classCNote.html#aab06d3bcc8c43dfffd3619727e6f674e" title=" " alt="" coords="261,259,381,285"/>
+<area shape="rect" id="node12" href="$classCNote.html#a9ad06c6903fce75818c872d3cc21fdab" title=" " alt="" coords="237,309,405,336"/>
+<area shape="rect" id="node13" href="$classCRecipe.html#ac44727098dc4aa3e3146aa245c07aa87" title=" " alt="" coords="221,5,420,32"/>
+<area shape="rect" id="node14" href="$classCRecipe.html#a30e2709facc278251bcf6f05792c2ce9" title=" " alt="" coords="239,56,402,83"/>
+<area shape="rect" id="node15" href="$classCNote.html#ac649335844850025c581e6aeb736d8c8" title=" " alt="" coords="249,107,392,133"/>
+<area shape="rect" id="node3" href="$classCNote.html#a5aef1a2354a3b97bf3317b3b620917f8" title="Metóda logRecord slúži na zápis do logu danej poznámky." alt="" coords="468,183,603,209"/>
+<area shape="rect" id="node7" href="$classCDate.html#a4f9ea4e835bf194b9edd3a55e141a3c3" title=" " alt="" coords="477,461,593,488"/>
+<area shape="rect" id="node8" href="$classCDate.html#a32f2f1cf07e171905b3b5ea6bef23942" title=" " alt="" coords="470,512,601,539"/>
+<area shape="rect" id="node9" href="$classCDate.html#a5febd1f1a13b84748c562169e203d8ea" title=" " alt="" coords="477,411,594,437"/>
+</map>

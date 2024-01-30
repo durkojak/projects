@@ -1,0 +1,4 @@
+<map id="CDateSort" name="CDateSort">
+<area shape="rect" id="node1" title="Trieda CDateSort má naimplementované sortovacie metódy na základe dátumu vzniku." alt="" coords="5,189,119,296"/>
+<area shape="rect" id="node2" href="$classCSorting.html" title="Trieda CSorting je abstraktná parent trieda sortingov. Asc určuje zostupné/vzostupné poradie." alt="" coords="7,5,117,141"/>
+</map>

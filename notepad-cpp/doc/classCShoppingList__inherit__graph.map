@@ -1,0 +1,4 @@
+<map id="CShoppingList" name="CShoppingList">
+<area shape="rect" id="node1" title="Trieda CShoppingList reprezentuje poznámku vo forme nákupného zoznamu." alt="" coords="9,336,160,575"/>
+<area shape="rect" id="node2" href="$classCNote.html" title="Abstraktná parent trieda CNote reprezentuje poznámku. Má funkcie, ktoré majú všetky poznámky spoločné..." alt="" coords="5,5,164,288"/>
+</map>

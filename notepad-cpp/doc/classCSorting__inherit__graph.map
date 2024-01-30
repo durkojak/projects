@@ -1,0 +1,5 @@
+<map id="CSorting" name="CSorting">
+<area shape="rect" id="node1" title="Trieda CSorting je abstraktná parent trieda sortingov. Asc určuje zostupné/vzostupné poradie." alt="" coords="95,5,205,141"/>
+<area shape="rect" id="node2" href="$classCAlphabetSort.html" title="Trieda CAlphabetSort má naimplementované sortovacie metódy na základe abecedného poradia." alt="" coords="5,189,145,296"/>
+<area shape="rect" id="node3" href="$classCDateSort.html" title="Trieda CDateSort má naimplementované sortovacie metódy na základe dátumu vzniku." alt="" coords="169,189,283,296"/>
+</map>

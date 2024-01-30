@@ -1,0 +1,14 @@
+<map id="CRegular::contextMenu" name="CRegular::contextMenu">
+<area shape="rect" id="node1" title="Abstraktná metóda contextMenu ukáže užívateľovi možné akcie s daným druhom poznámky a zoberie user in..." alt="" coords="5,157,180,184"/>
+<area shape="rect" id="node2" href="$classCNote.html#aa8eed2202f9ae14ccca82143be5165a4" title=" " alt="" coords="254,157,370,184"/>
+<area shape="rect" id="node4" href="$classCRegular.html#ab8390149b11eaf345d921857508d2bb9" title=" " alt="" coords="230,5,394,32"/>
+<area shape="rect" id="node5" href="$classCNote.html#ad3962099eed921614dcb5a86aeaae441" title=" " alt="" coords="238,309,386,336"/>
+<area shape="rect" id="node9" href="$classCNote.html#ac72e9479f786e6c250367d1cc2bbef66" title=" " alt="" coords="250,56,374,83"/>
+<area shape="rect" id="node10" href="$classCNote.html#aab06d3bcc8c43dfffd3619727e6f674e" title=" " alt="" coords="252,208,372,235"/>
+<area shape="rect" id="node11" href="$classCNote.html#a9ad06c6903fce75818c872d3cc21fdab" title=" " alt="" coords="228,259,396,285"/>
+<area shape="rect" id="node12" href="$classCNote.html#ac649335844850025c581e6aeb736d8c8" title=" " alt="" coords="241,107,383,133"/>
+<area shape="rect" id="node3" href="$classCNote.html#a5aef1a2354a3b97bf3317b3b620917f8" title="Metóda logRecord slúži na zápis do logu danej poznámky." alt="" coords="444,107,579,133"/>
+<area shape="rect" id="node6" href="$classCDate.html#a4f9ea4e835bf194b9edd3a55e141a3c3" title=" " alt="" coords="453,309,569,336"/>
+<area shape="rect" id="node7" href="$classCDate.html#a32f2f1cf07e171905b3b5ea6bef23942" title=" " alt="" coords="446,360,577,387"/>
+<area shape="rect" id="node8" href="$classCDate.html#a5febd1f1a13b84748c562169e203d8ea" title=" " alt="" coords="453,259,570,285"/>
+</map>

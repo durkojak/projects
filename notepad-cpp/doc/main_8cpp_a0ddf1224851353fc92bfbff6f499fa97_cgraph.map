@@ -1,0 +1,6 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title="spustenie aplikácie" alt="" coords="5,31,60,57"/>
+<area shape="rect" id="node2" href="$classCConfigTool.html#a3c8a8e61cbf07ddeac2ac29ee4602ff5" title="Funkcia loadConfig slúži na načítanie konfiguráku a skontrolovanie jeho obsahu.Momentálne moja apliká..." alt="" coords="108,5,283,32"/>
+<area shape="rect" id="node4" href="$classCNotesManager.html#a617ce66731c469ee60087dcb945e94fa" title="Funkcia run prijíma od usera požiadavky, ktoré sú potom sprostredkované ďalej." alt="" coords="118,56,273,83"/>
+<area shape="rect" id="node3" href="$classCConfigTool.html#a77e72c273c6846c68b31e74554b7872a" title="Funkcia isValid slúži na skontrolovanie path ku konfiguráku." alt="" coords="331,5,480,32"/>
+</map>

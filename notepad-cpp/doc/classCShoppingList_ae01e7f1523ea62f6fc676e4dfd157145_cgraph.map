@@ -1,0 +1,16 @@
+<map id="CShoppingList::contextMenu" name="CShoppingList::contextMenu">
+<area shape="rect" id="node1" title="Abstraktná metóda contextMenu ukáže užívateľovi možné akcie s daným druhom poznámky a zoberie user in..." alt="" coords="5,208,212,235"/>
+<area shape="rect" id="node2" href="$classCShoppingList.html#a684ef228ddd617f34f51b5ab1e728222" title=" " alt="" coords="273,360,449,387"/>
+<area shape="rect" id="node4" href="$classCNote.html#aa8eed2202f9ae14ccca82143be5165a4" title=" " alt="" coords="303,5,419,32"/>
+<area shape="rect" id="node5" href="$classCNote.html#ad3962099eed921614dcb5a86aeaae441" title=" " alt="" coords="287,411,435,437"/>
+<area shape="rect" id="node9" href="$classCNote.html#ac72e9479f786e6c250367d1cc2bbef66" title=" " alt="" coords="299,56,423,83"/>
+<area shape="rect" id="node10" href="$classCShoppingList.html#a916d60b244575460b20ec0d2e7600d0e" title="Metóda getPrice vypočíta celkovú cenu nákupu." alt="" coords="274,208,449,235"/>
+<area shape="rect" id="node11" href="$classCNote.html#aab06d3bcc8c43dfffd3619727e6f674e" title=" " alt="" coords="301,259,421,285"/>
+<area shape="rect" id="node12" href="$classCNote.html#a9ad06c6903fce75818c872d3cc21fdab" title=" " alt="" coords="277,309,445,336"/>
+<area shape="rect" id="node13" href="$classCShoppingList.html#a28fdde3b264c3744f419b496af8fa0c2" title=" " alt="" coords="260,107,463,133"/>
+<area shape="rect" id="node14" href="$classCNote.html#ac649335844850025c581e6aeb736d8c8" title=" " alt="" coords="290,157,433,184"/>
+<area shape="rect" id="node3" href="$classCNote.html#a5aef1a2354a3b97bf3317b3b620917f8" title="Metóda logRecord slúži na zápis do logu danej poznámky." alt="" coords="511,132,645,159"/>
+<area shape="rect" id="node6" href="$classCDate.html#a4f9ea4e835bf194b9edd3a55e141a3c3" title=" " alt="" coords="520,411,636,437"/>
+<area shape="rect" id="node7" href="$classCDate.html#a32f2f1cf07e171905b3b5ea6bef23942" title=" " alt="" coords="513,461,643,488"/>
+<area shape="rect" id="node8" href="$classCDate.html#a5febd1f1a13b84748c562169e203d8ea" title=" " alt="" coords="519,360,637,387"/>
+</map>

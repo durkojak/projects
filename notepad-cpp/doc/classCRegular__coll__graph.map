@@ -1,0 +1,5 @@
+<map id="CRegular" name="CRegular">
+<area shape="rect" id="node1" title="Trieda CRegular reprezentuje obyčajnú textovú poznámku." alt="" coords="19,727,151,951"/>
+<area shape="rect" id="node2" href="$classCNote.html" title="Abstraktná parent trieda CNote reprezentuje poznámku. Má funkcie, ktoré majú všetky poznámky spoločné..." alt="" coords="5,409,164,677"/>
+<area shape="rect" id="node3" href="$classCDate.html" title=" " alt="" coords="23,5,147,347"/>
+</map>

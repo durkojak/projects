@@ -1,0 +1,4 @@
+<map id="CAlphabetSort" name="CAlphabetSort">
+<area shape="rect" id="node1" title="Trieda CAlphabetSort má naimplementované sortovacie metódy na základe abecedného poradia." alt="" coords="5,189,145,296"/>
+<area shape="rect" id="node2" href="$classCSorting.html" title="Trieda CSorting je abstraktná parent trieda sortingov. Asc určuje zostupné/vzostupné poradie." alt="" coords="20,5,131,141"/>
+</map>

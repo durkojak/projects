@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classCNote.html" title="Abstraktná parent trieda CNote reprezentuje poznámku. Má funkcie, ktoré majú všetky poznámky spoločné..." alt="" coords="5,81,68,108"/>
+<area shape="rect" id="node2" href="$classCRecipe.html" title="Trieda CRecipe reprezentuje poznámku vo forme receptu." alt="" coords="136,5,211,32"/>
+<area shape="rect" id="node3" href="$classCRegular.html" title="Trieda CRegular reprezentuje obyčajnú textovú poznámku." alt="" coords="133,56,214,83"/>
+<area shape="rect" id="node4" href="$classCShoppingList.html" title="Trieda CShoppingList reprezentuje poznámku vo forme nákupného zoznamu." alt="" coords="116,107,231,133"/>
+<area shape="rect" id="node5" href="$classCToDoList.html" title="Trieda CToDoList reprezentuje poznámku vo forme to do listu." alt="" coords="130,157,217,184"/>
+</map>

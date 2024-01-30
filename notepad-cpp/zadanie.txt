@@ -1,0 +1,32 @@
+== ZADANIE
+
+Vaším úkolem je vytvořit program pro správu poznámek, seznamů a připomínek.
+
+Implementujte následující funkcionality:
+    - Vytvořte alespoň 3 druhy poznámek (složka poznámek se nepočítá, př. textová, nákupní seznam, to do list, myšlenková mapa...)
+    - Poznámky jsou umisťovány do adresářů, které mohou mít podadresáře. Pro každou poznámku je možné určit název, datum vytvoření, štítky (tagy). Pro jednotlivé druhy pak další potřebné atributy.
+    - Umožněte vytvářet, zobrazovat, upravovat a mazat formátované poznámky. Veškeré úpravy a změny evidujte v logu aktivit u jednotlivých poznámek.
+    - Umožněte export poznámek do nějakého standardního formátu (př. HTML, Markdown, AsciiDoc, …).
+    - Umožněte vyhledávat poznámky podle názvu, data vytvoření, štítků, adresáře nebo textu v nich obsaženého a jejich kombinací (př. v adresáři "škola" se štítky "PA1" nebo "PA2", …).
+    - Umožněte poznámky exportovat a následně importovat (vytvořte vhodný textový formát). Export musí podporovat všechny či podmnožinu určenou vyhledáváním.
+
+Kde lze využít polymorfismus? (doporučené)
+    - druhy poznámek: složka poznámek, textová poznámka, seznam úkolů, nákupní seznam (zobrazuje celkovou cenu), tabulka, myšlenková mapa, …
+    - filtry k vyhledávání: (ne)obsahuje text, a zároveň, nebo, procento úkolů splněno
+    - různé formáty importu a exportu: proprietární, HTML, Markdown, AsciiDoc, …
+    - různá kritéria řazení poznámek: podle data vytvoření, podle abecedy, …
+     -uživatelské rozhraní: konzole, ncurses, SDL, OpenGL (různé varianty), …
+
+== SPECIFIKACE
+
+Interaktívna aplikácia poznámkovník sa bude zaoberať spracovaním file systému - bude robiť s adresármi a podadresármi, taktiež bude vedieť importovať/
+exportovať do rôznych formátov a poznámky sa budú dať filtrovat/sortiť. Ako grafické rozhranie bude využitý terminál, do ktorého user bude dávať
+svoje požiadavky.
+
+== POLYMORFISMUS
+
+Polymorfismus je využívaný hlavne pri triedách, ktoré patria pod Sorting, Notes, ImportExport a Filters. V Notes je base trieda CNote z ktorej potom
+vznikli derived triedy, ktoré reprezentujú poznámky vo forme receptu, nákupného zoznamu, to do listu a klasickej textovej poznámky. V ImportExport je
+base trieda CImportExport, z ktorej dedia triedy využívané na import/export do .html, .txt a markdown. Pri Sortingu je princíp rovnaký, base trieda
+CSorting a odvodené triedy na rozličné druhy sortenia a pri Filters, base trieda CFilter a derived triedy na rozličné druhy filtrovania, ktoré sa budú
+môcť kombinovať.

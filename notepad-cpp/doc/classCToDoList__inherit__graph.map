@@ -1,0 +1,4 @@
+<map id="CToDoList" name="CToDoList">
+<area shape="rect" id="node1" title="Trieda CToDoList reprezentuje poznámku vo forme to do listu." alt="" coords="10,336,159,604"/>
+<area shape="rect" id="node2" href="$classCNote.html" title="Abstraktná parent trieda CNote reprezentuje poznámku. Má funkcie, ktoré majú všetky poznámky spoločné..." alt="" coords="5,5,164,288"/>
+</map>

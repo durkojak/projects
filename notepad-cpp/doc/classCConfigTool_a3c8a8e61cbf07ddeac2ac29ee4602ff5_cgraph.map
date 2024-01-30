@@ -1,0 +1,4 @@
+<map id="CConfigTool::loadConfig" name="CConfigTool::loadConfig">
+<area shape="rect" id="node1" title="Funkcia loadConfig slúži na načítanie konfiguráku a skontrolovanie jeho obsahu.Momentálne moja apliká..." alt="" coords="5,5,180,32"/>
+<area shape="rect" id="node2" href="$classCConfigTool.html#a77e72c273c6846c68b31e74554b7872a" title="Funkcia isValid slúži na skontrolovanie path ku konfiguráku." alt="" coords="228,5,377,32"/>
+</map>

@@ -1,0 +1,14 @@
+*****
+SHOPPINGLIST
+Lidl
+Mlieko
+3.50
+Vajcia
+1.50
+Voda
+0.50
+Cola
+1.75
+Rohlik
+3.78
+*****

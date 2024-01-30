@@ -1,0 +1,7 @@
+<map id="CNote::printLogRecord" name="CNote::printLogRecord">
+<area shape="rect" id="node1" title=" " alt="" coords="260,81,428,108"/>
+<area shape="rect" id="node2" href="$classCRecipe.html#a8fdaa377a866d98045a7162b23e11e74" title="Abstraktná metóda contextMenu ukáže užívateľovi možné akcie s daným druhom poznámky a zoberie user in..." alt="" coords="25,5,193,32"/>
+<area shape="rect" id="node3" href="$classCRegular.html#a6c99dab48e1e535cf4fcb7ce8f24d0b0" title="Abstraktná metóda contextMenu ukáže užívateľovi možné akcie s daným druhom poznámky a zoberie user in..." alt="" coords="21,56,196,83"/>
+<area shape="rect" id="node4" href="$classCShoppingList.html#ae01e7f1523ea62f6fc676e4dfd157145" title="Abstraktná metóda contextMenu ukáže užívateľovi možné akcie s daným druhom poznámky a zoberie user in..." alt="" coords="5,107,212,133"/>
+<area shape="rect" id="node5" href="$classCToDoList.html#ab8f8000eb324e77ad11801b7b0301ec1" title="Abstraktná metóda contextMenu ukáže užívateľovi možné akcie s daným druhom poznámky a zoberie user in..." alt="" coords="19,157,198,184"/>
+</map>
