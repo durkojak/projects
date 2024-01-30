@@ -6,7 +6,7 @@ Moje téma semestrálky na TJV je inšpirované semestrálkou na DBS a to konkr�
 
 ## Business operace
 
-Klient sa pokúsi pridať tím na turnaj, ak ale súčet všetkých prizepoolov turnajov, na ktorých daný tím hrá by presiahol 10 000 000, klient to zakáže a vypíše :( , inak ho pridá na turnaj a vypíše :).
+Klient sa pokúsi pridať tím na turnaj, ak ale súčet všetkých prizepoolov turnajov, na ktorých daný tím hrá by presiahol 10 000 000, klient to zakáže , inak ho pridá na turnaj.
 
 ## Komplexný dotaz
 Vymazanie všetkých hráčov, ktorý majú K/D pod 1.00 a hrajú v top 30 tímoch na svete.
@@ -18,13 +18,7 @@ Vymazanie všetkých hráčov, ktorý majú K/D pod 1.00 a hrajú v top 30 tímo
 
 ## Spustenie
 
-Semestrálka sa skladá z klienta na porte 9000 a serveru na 8080. Ak máte nainštalované potrebné veci, tak stačí stiahnuť a spustiť klienta a server. Je implementovaný aj Docker.
-
-###Komandy na docker :
-sudo docker build -t {name} . - potrebné vytvoriť pre klienta a server
-sudo docker run -p 8080:8080 {name} - pre server
-sudo docker run -p 9000:9000 {name} - pre klienta
-
+Semestrálka sa skladá z klienta na porte 9000 a serveru na 8080. Ak máte nainštalované potrebné veci, tak stačí stiahnuť a spustiť klienta a server.
 
 
 
