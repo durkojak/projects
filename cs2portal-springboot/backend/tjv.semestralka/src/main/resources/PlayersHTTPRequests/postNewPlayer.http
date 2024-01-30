@@ -1,0 +1,9 @@
+POST http://localhost:8080/player
+Content-Type: application/json
+
+{
+  "nickname": "PostPlayer",
+  "kdRatio": 7.9,
+  "favGun": "XM-1014",
+  "memberOf": null
+}

@@ -1,0 +1,10 @@
+POST http://localhost:8080/team
+Content-Type: application/json
+
+{
+  "teamName": "Awesome Team",
+  "globalRanking": 1,
+  "languageTeam": "English",
+  "rosterOfTeam": []
+
+}

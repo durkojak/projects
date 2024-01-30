@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<link href="styles.css" rel="stylesheet" type="text/css">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2 Portal</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+
+<body>
+
+<h1 id="main_header">CS2 Portal</h1>
+<br>
+
+<input type="button" id="showPlayerTable" value="Players">
+<input type="button" id="showTeamTable" value="Teams">
+<input type="button" id="showTournamentTable" value="Tournaments">
+
+
+
+<div id="successPopup" class="popup success-popup">Success!</div>
+<div id="errorPopup" class="popup error-popup">Fail!</div>
+
+
+<form id="addPlayerForm", form style="margin-top: 40px;">
+    <label for="nickname">Nickname:</label>
+    <input type="text" id="nickname" name="nickname" required>
+
+    <label for="kdRatio">K/D Ratio:</label>
+    <input type="number" id="kdRatio" name="kdRatio" step="0.01" required>
+
+    <label for="favGun">Favorite Gun:</label>
+    <input type="text" id="favGun" name="favGun" required>
+    <button type="submit">Add Player</button>
+</form>
+
+<form id="addTeamForm", form style="margin-top: 40px;">
+    <label for="teamName">Team name:</label>
+    <input type="text" id="teamName" name="teamName" required>
+
+    <label for="globalRanking">Ranking:</label>
+    <input type="number" id="globalRanking" name="globalRanking" step="0.01" required>
+
+    <label for="languageTeam">Language:</label>
+    <input type="text" id="languageTeam" name="languageTeam" required>
+    <button type="submit">Add Team</button>
+</form>
+
+<form id="addTournamentForm", form style="margin-top: 40px;">
+    <label for="tournamentName">Tournament name:</label>
+    <input type="text" id="tournamentName" name="tournamentName" required>
+
+    <label for="prizePool">Prize pool:</label>
+    <input type="number" id="prizePool" name="prizePool" step="0.01" required>
+
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location" required>
+    <button type="submit">Add Team</button>
+</form>
+
+<form id="editPlayerForm", form style="margin-top: 40px;">
+    <label for="editPlayerId">Player ID:</label>
+    <input type="text" id="editPlayerId" name="editPlayerId" readonly>
+
+    <label for="editNickname">Nickname:</label>
+    <input type="text" id="editNickname" name="editNickname" required>
+
+    <label for="editKdRatio">K/D Ratio:</label>
+    <input type="number" id="editKdRatio" name="editKdRatio" step="0.01" required>
+
+    <label for="editFavGun">Favorite Gun:</label>
+    <input type="text" id="editFavGun" name="editFavGun" required>
+
+    <button type="button" id="editPlayerSubmit">Submit</button>
+</form>
+
+<form id="editTeamForm", form style="margin-top: 40px;">
+    <label for="editTeamId">Team ID:</label>
+    <input type="text" id="editTeamId" name="editTeamId" readonly>
+
+    <label for="editTeamName">Team name:</label>
+    <input type="text" id="editTeamName" name="editTeamName" required>
+
+    <label for="editGlobalRanking">Global Ranking:</label>
+    <input type="number" id="editGlobalRanking" name="editGlobalRanking" step="0.01" required>
+
+    <label for="editLanguageTeam">Language:</label>
+    <input type="text" id="editLanguageTeam" name="editLanguageTeam" required>
+
+    <button type="button" id="editTeamSubmit">Submit</button>
+</form>
+
+<form id="editTournamentForm", form style="margin-top: 40px;">
+    <label for="editTournamentId">Tournament ID:</label>
+    <input type="text" id="editTournamentId" name="editTournamentId" readonly>
+
+    <label for="editTournamentName">Tournament name:</label>
+    <input type="text" id="editTournamentName" name="editTournamentName" required>
+
+    <label for="editPrizePool">Prize pool:</label>
+    <input type="number" id="editPrizePool" name="editPrizePool" step="0.01" required>
+
+    <label for="editLocation">Location:</label>
+    <input type="text" id="editLocation" name="editLocation" required>
+
+    <button type="button" id="editTournamentSubmit">Submit</button>
+</form>
+
+<form id="addTeamToTournament", form style="margin-top: 40px;">
+    <label for="teamId">Team ID:</label>
+    <input type="number" id="teamId" name="teamId" required>
+
+    <label for="tournamentId">Tournament ID:</label>
+    <input type="number" id="tournamentId" name="tournamentId" required>
+
+    <button type="submit">Submit</button>
+</form>
+
+<form id="addPlayerToTeam" style="margin-top: 40px;">
+    <label for="addPlayerToTeamTeamId">Team ID:</label>
+    <input type="number" id="addPlayerToTeamTeamId" name="addPlayerToTeamTeamId" required>
+
+    <label for="addPlayerToTeamPlayerId">Player ID:</label>
+    <input type="number" id="addPlayerToTeamPlayerId" name="addPlayerToTeamPlayerId" required>
+
+    <button type="submit">Submit</button>
+</form>
+
+
+<br>
+<h2 id="tableTitle"> Players </h2>
+<br>
+
+<table id="playerTable">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Nickname</th>
+        <th>K/D ratio</th>
+        <th>Favourite Gun</th>
+        <th>Team</th>
+        <th>Action</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+
+<table id="teamTable" style="display: none;">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Global Ranking</th>
+        <th>Language</th>
+        <th>Roster</th>
+        <th>Action</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+
+<table id="tournamentTable" style="display: none;">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Prize Pool</th>
+        <th>Teams</th>
+        <th>Action</th>
+        <th>Action</th>
+    </tr>
+    </thead>
+    <tbody>
+
+    </tbody>
+</table>
+
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
+

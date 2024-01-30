@@ -1,0 +1,8 @@
+POST http://localhost:8080/tournament
+Content-Type: application/json
+
+{
+  "tournamentName": "Y-Games",
+  "location": "Bratislava",
+  "prizePool": 123456789
+}

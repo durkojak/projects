@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+form {
+    margin: 0;
+    padding: 0; /* Reset padding */
+    text-align: left; /* Reset text alignment */
+    margin-bottom: 20px; /* Adjust this value based on your preference */
+}
+#main_header {
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 18px; /* Adjust the top position as needed */
+    right: 5px; /* Adjust the right position as needed */
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    width: 200px;
+    text-align: center;
+    z-index: 9999;
+}
+
+.success-popup {
+    background-color: green;
+}
+
+.error-popup {
+    background-color: red;
+}
+
+
+#playerTable, #teamTable, #tournamentTable {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#playerTable th, #playerTable td,
+#teamTable th, #teamTable td,
+#tournamentTable th, #tournamentTable td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+#playerTable th,
+#teamTable th,
+#tournamentTable th {
+    background-color: #333;
+    color: #fff;
+}
+
+#playerTable tbody tr:hover,
+#teamTable tbody tr:hover,
+#tournamentTable tbody tr:hover {
+    background-color: #f5f5f5;
+}

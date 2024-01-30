@@ -1,0 +1,9 @@
+PUT http://localhost:8080/player/2
+Content-Type: application/json
+
+{
+  "nickname": "PutPlayer",
+  "kdRatio": 9.6,
+  "favGun": "Negev",
+  "memberOf": null
+}

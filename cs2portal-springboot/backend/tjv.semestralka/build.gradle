@@ -1,0 +1,32 @@
+plugins {
+	id 'java'
+	id 'org.springframework.boot' version '3.1.5'
+	id 'io.spring.dependency-management' version '1.1.3'
+}
+
+group = 'cz.cvut.fit.durkojak'
+version = '0.0.1-SNAPSHOT'
+
+java {
+	sourceCompatibility = '17'
+}
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	implementation group: 'org.hibernate', name: 'hibernate-core', version: '6.3.1.Final'
+	implementation group: 'org.springframework.data', name: 'spring-data-jpa', version: '3.1.5'
+	testRuntimeOnly group: 'com.h2database', name: 'h2', version: '2.2.224'
+	implementation 'org.springframework.boot:spring-boot-starter-jdbc'
+	implementation group: 'org.springdoc', name: 'springdoc-openapi-starter-webmvc-ui', version: '2.2.0'
+	implementation 'org.postgresql:postgresql:42.2.24'
+}
+
+tasks.named('test') {
+	useJUnitPlatform()
+}

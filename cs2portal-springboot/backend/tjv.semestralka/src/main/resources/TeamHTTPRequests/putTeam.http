@@ -1,0 +1,8 @@
+PUT http://localhost:8080/team/3
+Content-Type: application/json
+
+{
+  "teamName": "Put Team",
+  "globalRanking": 1,
+  "languageTeam": "English"
+}
