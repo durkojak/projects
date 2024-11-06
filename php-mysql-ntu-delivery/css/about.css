@@ -1,0 +1,49 @@
+header {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    padding-left: 20px;
+}
+
+header img {
+    height: 60px;               
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;  
+    width: 140px;            
+    background-color: #f4f4f4; 
+    padding: 15px;
+    border-radius: 10px;    
+}
+
+nav a {
+    text-decoration: none; 
+    color: #002D62; 
+    font-family: "Monaco", "Courier New", monospace;
+    font-weight: bold;
+
+}
+nav a:visited {color: #5072A7;}
+nav a:hover {color: #000000;}
+
+.general {
+    display: flex;            
+    align-items: flex-start;  
+    gap: 20px;                
+    margin: 15px;             
+}
+
+.content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 10px;
+}
+
+.delivery-image {
+    display: block;         
+    margin-left: 20px;   
+    width: 130px;         
+    height: auto;     
+}

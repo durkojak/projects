@@ -1,0 +1,61 @@
+-- Muzska linie
+
+DURKOJAK> BEGIN
+              GET_RODOVA_LINE('Iason','mužská');
+          end;
+[2024-03-28 12:27:30] completed in 10 ms
+Hlada sa muzska linia...
+Ringo (1)
+Nestor (2)
+Koniec hladania!
+
+
+-- Zenska linie
+
+DURKOJAK> BEGIN
+              GET_RODOVA_LINE('Iason','ženská');
+          end;
+[2024-03-28 12:26:57] completed in 10 ms
+Hlada sa zenska linia...
+Lilien (1)
+Jarmila (2)
+Malvina (2)
+Koniec hladania!
+
+
+-- Obe rodove linie
+
+
+DURKOJAK> BEGIN
+              GET_RODOVA_LINE('Iason','obe');
+          end;
+[2024-03-28 12:26:14] completed in 14 ms
+Hladaju sa obe linie...
+Lilien (1)
+Ringo (1)
+Jarmila (2)
+Malvina (2)
+Nestor (2)
+Koniec hladania!
+
+
+-- Vydra ktora nema rodovu liniu
+
+DURKOJAK> BEGIN
+              GET_RODOVA_LINE('Zoran','obe');
+          end;
+[2024-03-28 12:25:30] completed in 14 ms
+Hladaju sa obe linie...
+Koniec hladania!
+
+
+
+-- NEEXISTUJUCA VYDRA
+
+
+DURKOJAK> BEGIN
+              GET_RODOVA_LINE('Celestyn','obe');
+          end;
+[2024-03-28 12:24:17] completed in 25 ms
+Neexistujuca vydra
+

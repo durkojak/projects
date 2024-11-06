@@ -1,0 +1,21 @@
+-- 10, muzska
+
+V_JMENO, GENERACE
+Ringo,1
+Nestor,2
+
+-- 10, zenska
+
+V_JMENO, GENERACE
+Lilien,1
+Malvina,2
+
+-- 10, obe
+
+V_JMENO, GENERACE
+Lilien,1
+Ringo,1
+Jarmila,2
+Malvina,2
+Nestor,2
+
