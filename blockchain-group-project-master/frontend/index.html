@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>V4C Dutch Auction</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+  />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Chart.js -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"
+    defer
+  ></script>
+  <!-- Ethers.js -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/ethers/5.7.2/ethers.umd.min.js"
+    defer
+  ></script>
+  <!-- Custom JS -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">V4C Dutch Auction</a>
+  </nav>
+
+  <div class="container my-5">
+    <div class="row">
+      <!-- Auction Information -->
+      <div class="col-md-6">
+        <h2 class="mb-4">Auction Details</h2>
+        <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Current Price
+            <span id="currentPrice" class="badge badge-primary badge-pill">Loading...</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Total Tokens
+            <span id="totalTokens" class="badge badge-primary badge-pill">Loading...</span>
+          </li>
+
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Tokens Sold
+            <span id="tokensSold" class="badge badge-primary badge-pill">Loading...</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            Time Remaining
+            <span id="timeRemaining" class="badge badge-danger badge-pill">Loading...</span>
+          </li>
+        </ul>
+      </div>
+      <!-- Bid Section -->
+      <div class="col-md-6">
+        <h2 class="mb-4">Place a Bid</h2>
+        <form id="bidForm">
+          <div class="form-group">
+            <label for="bidAmount">Bid Amount (Wei)</label>
+            <input type="number" class="form-control" id="bidAmount" placeholder="Enter Wei amount" required>
+          </div>
+          <div class="form-group">
+            <label for="bidAccount">Account ID</label>
+            <input type="text" class="form-control" id="bidAccount" placeholder="Enter your account ID" required>
+          </div>
+          <button id="placeBid" type="button" class="btn btn-primary">Place Bid</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- Price Chart -->
+    <div class="row my-5">
+      <div class="col">
+        <h2 class="mb-4 text-center">Price Over Time</h2>
+        <canvas id="priceChart"></canvas>
+      </div>
+    </div>
+
+    <!-- Bids List -->
+    <div class="row">
+      <div class="col">
+        <h2 class="mb-4">Recent Bids</h2>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col">Account ID</th>
+              <th scope="col">Bid Amount (Wei)</th>
+              <th scope="col">Tokens Purchased</th>
+              <th scope="col">Time</th>
+            </tr>
+          </thead>
+          <tbody id="bidsList">
+            <!-- Bids will be dynamically inserted here -->
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+  <!-- Bootstrap JS and dependencies -->
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    defer
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    defer
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    defer
+  ></script>
+</body>
+</html>
