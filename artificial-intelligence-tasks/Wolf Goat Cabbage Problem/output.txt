@@ -1,0 +1,75 @@
+STEP 1 :
+startLand: {Cabbage, Farmer, Goat, Wolf}
+boat: {}
+endLand: {}
+
+STEP 2 :
+startLand: {Cabbage, Wolf}
+boat: {Farmer, Goat}
+endLand: {}
+
+STEP 3 :
+startLand: {Cabbage, Wolf}
+boat: {}
+endLand: {Farmer, Goat}
+
+STEP 4 :
+startLand: {Cabbage, Wolf}
+boat: {Farmer}
+endLand: {Goat}
+
+STEP 5 :
+startLand: {Cabbage, Farmer, Wolf}
+boat: {}
+endLand: {Goat}
+
+STEP 6 :
+startLand: {Wolf}
+boat: {Farmer, Cabbage}
+endLand: {Goat}
+
+STEP 7 :
+startLand: {Wolf}
+boat: {}
+endLand: {Cabbage, Farmer, Goat}
+
+STEP 8 :
+startLand: {Wolf}
+boat: {Farmer, Goat}
+endLand: {Cabbage}
+
+STEP 9 :
+startLand: {Farmer, Goat, Wolf}
+boat: {}
+endLand: {Cabbage}
+
+STEP 10 :
+startLand: {Goat}
+boat: {Farmer, Wolf}
+endLand: {Cabbage}
+
+STEP 11 :
+startLand: {Goat}
+boat: {}
+endLand: {Cabbage, Farmer, Wolf}
+
+STEP 12 :
+startLand: {Goat}
+boat: {Farmer}
+endLand: {Cabbage, Wolf}
+
+STEP 13 :
+startLand: {Farmer, Goat}
+boat: {}
+endLand: {Cabbage, Wolf}
+
+STEP 14 :
+startLand: {}
+boat: {Farmer, Goat}
+endLand: {Cabbage, Wolf}
+
+STEP 15 :
+startLand: {}
+boat: {}
+endLand: {Cabbage, Farmer, Goat, Wolf}
+

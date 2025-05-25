@@ -1,0 +1,34 @@
+
+
+task contains conditional effects. turning off state domination.
+
+ --- OK.
+ Match tree built with 1212 nodes.
+
+PDDL problem description loaded: 
+	Domain: MINECRAFT
+	Problem: MINECRAFT-TOWER-3D-MULTI
+	#Actions: 1212
+	#Fluents: 183
+Goals found: 1
+Goals_Edges found: 1
+Starting search with 1-BFWS...
+--[1 / 0]--
+--[1 / 4]--
+--[1 / 6]--
+--[1 / 7]--
+--[1 / 8]--
+--[1 / 9]--
+--[1 / 10]--
+--[1 / 12]--
+--[1 / 13]--
+--[1 / 15]--
+--[1 / 16]--
+--[1 / 17]--
+--[0 / 0]--
+--[0 / 14]--
+Total time: 0.001451
+Nodes generated during search: 379
+Nodes expanded during search: 261
+Plan found with cost: 10
+Fast-BFS search completed in 0.001451 secs

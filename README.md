@@ -22,5 +22,17 @@ I'm really curious about **Web3** and **Blockchain** and I got lucky enough that
 This was a team project for the BI-VWM course in the **6th** semester, focused on building a movie recommendation system using collaborative filtering algorithms. We used the MovieLens dataset to generate personalized movie suggestions based on user ratings. The system implements several similarity metrics (Cosine, Pearson, Spearman), and predictions are made using the k-nearest neighbors approach.
 The backend is built with **Flask** and uses a **SQLite** database. The frontend, built with modern **JavaScript** tooling, supports dynamic interaction. I worked on both backend development and implementing the recommendation logic. The system also provides a functional **REST API** and includes options for testing various parameter settings.
 
+## Basics of Artificial Intelligence  
+This folder contains several small C++ projects developed during the **Basics of Artificial Intelligence** course in the **6th semester**, each focused on solving a classical AI problem using fundamental algorithms and techniques. All logic is implemented in **C++**, and each project is self-contained in its own directory.
+
+- **Labyrinth Solver**: Solves a maze using multiple search algorithms: **BFS**, **DFS**, **Random Search**, **Greedy Search**, and **A\***.
+- **Minecraft PDDL**: Models and solves a block-stacking problem using **PDDL** and autonomous agent planning techniques.
+- **N-Queens Problem**: Uses **backtracking** to solve the N-Queens puzzle for any board size.
+- **Sudoku Solver**: Solves Sudoku as a **Constraint Satisfaction Problem (CSP)**, using domain filtering, constraint propagation, and backtracking.
+- **Wolf, Goat, and Cabbage Problem**: Solves the classical river crossing problem via **state-space search**.
+
+These projects provided practical experience with key AI methods such as search algorithms, CSPs, and automated planning.
+
+
 ## Spring Boot Team Project : AKRMAT Accreditation System
 This was a two-semester team project (Spring and Fall 2024) developed as part of the Software Engineering course at the Faculty of Information Technology, CTU in Prague. The project focused on building AKRMAT, a web application for generating and managing accreditation materials required by the university.I worked primarily on the backend, which was developed in Kotlin, with a strong emphasis on designing and implementing REST API endpoints.The code for this project is not included in the Git repository, as it is the intellectual property of the university and must remain private.
