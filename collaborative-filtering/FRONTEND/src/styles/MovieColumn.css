@@ -1,0 +1,91 @@
+/* Movie Column container */
+.movie-column {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+}
+
+/* Title for the column */
+.movie-column-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: 12px;
+    color: #333;
+}
+
+/* Movie list item style */
+.movie-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+/* Individual movie card */
+.movie-item {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Flex container for movie title and reviews count */
+.movie-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Movie title styling */
+.movie-title {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* Reviews count styling */
+.review-count {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+/* Stars container */
+.stars {
+    display: flex;
+    gap: 8px;
+}
+
+/* Rating star button */
+.star-button {
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for star buttons */
+.star-button:hover {
+    transform: scale(1.2);
+}
+
+/* Selected star (gold) */
+.star-button.selected {
+    color: #ffcc00;
+}
+
+/* Average rating text styling */
+.avg-rating {
+    font-size: 0.875rem;
+    color: #444;
+}
+
+/* Movie card shadow effect when hovered */
+.movie-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}

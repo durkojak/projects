@@ -1,0 +1,12 @@
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+
+*.idea
+
+recommender.db
+recommender.db-journal

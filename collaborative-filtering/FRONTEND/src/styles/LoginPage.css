@@ -1,0 +1,67 @@
+/* Container for the login page */
+.login-container {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.login-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Form styling */
+.login-form, .register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Form group for input fields */
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Input field styling */
+.input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+/* Button styling */
+.submit-btn, .admin-btn {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.submit-btn:hover, .admin-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Admin button styling */
+.admin-btn {
+    background-color: #dc3545;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.admin-btn:hover {
+    background-color: #c82333;
+}

@@ -1,0 +1,59 @@
+.movie-details {
+    margin-top: 10px;
+    padding: 10px;
+    border-top: 2px solid #ddd;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.rating-container {
+    display: flex;
+    gap: 8px;
+}
+
+.star-button {
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+
+.star-button:hover {
+    transform: scale(1.2);
+}
+
+.selected {
+    color: gold;
+}
+
+.remove-review-button {
+    color: red;
+    font-weight: bold;
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: color 0.2s ease-in-out;
+}
+
+.remove-review-button:hover {
+    color: darkred;
+}
+
+/* Rating stars */
+.stars {
+    display: flex;
+    justify-content: center;  /* Centers stars horizontally */
+    align-items: center;      /* Centers stars vertically */
+    gap: 5px;
+}
+
+.star {
+    cursor: default;
+}
+
+.star.filled {
+    color: #ffcc00; /* Yellow color for filled stars */
+}

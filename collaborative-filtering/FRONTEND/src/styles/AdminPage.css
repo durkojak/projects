@@ -1,0 +1,121 @@
+/* AdminPage.css */
+
+/* Center the entire page content */
+.admin-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    width: 50rem;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #f7f7f7; /* Optional background color */
+}
+
+/* Center the content inside the admin-actions section */
+.admin-actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    max-width: 800px; /* Increased max-width for a wider layout */
+    padding: 30px; /* Increased padding for better spacing */
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the admin title */
+.admin-title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Styling for the form groups inside admin actions */
+.admin-form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* Styling for admin form inputs */
+.admin-input[type="number"], .admin-select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.admin-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.admin-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.admin-button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the buttons inside admin-actions */
+.admin-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.admin-reset-btn {
+    background-color: #dc3545;
+    color: white;
+}
+
+.admin-recalc-btn {
+    background-color: #28a745;
+    color: white;
+}
+
+.admin-recalc-suggestions-btn {
+    background-color: #007bff;
+    color: white;
+}
+
+.admin-reset-btn:hover {
+    background-color: #c82333;
+}
+
+.admin-recalc-btn:hover {
+    background-color: #218838;
+}
+
+.admin-recalc-suggestions-btn:hover {
+    background-color: #0056b3;
+}
+
+/* For the form group labels */
+.admin-form-group label {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.admin-form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

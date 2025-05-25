@@ -1,0 +1,105 @@
+/* Container for the entire component */
+.movie-search-container {
+    max-width: 600px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #1e1e1e;
+    border-radius: 0.5rem;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header above the search input */
+.movie-search-header {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #f1f1f1;
+}
+
+/* Search input container */
+.movie-search-input-container {
+    position: relative;
+}
+
+/* Input field style */
+.movie-search-input {
+    width: 80%;
+    padding: 0.75rem 1rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+    border: 1px solid #555;
+    background-color: #2a2a2a;
+    color: white;
+}
+
+/* Suggestion popup container */
+.react-autosuggest__suggestions-container {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    right: 0;
+    background: #292929;
+    border: 1px solid #444;
+    border-radius: 0.4rem;
+    z-index: 1000;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Suggestion list container */
+.react-autosuggest__suggestions-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Individual suggestion */
+.suggestion-item,
+.react-autosuggest__suggestion {
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+    color: white;
+}
+
+/* Highlighted suggestion on hover or keyboard nav */
+.react-autosuggest__suggestion--highlighted {
+    background-color: #3b3b3b;
+}
+
+/* Search result display */
+.movie-search-results {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: #2e2e2e;
+    border-radius: 0.4rem;
+    border: 1px solid #444;
+}
+
+/* Movie title */
+.movie-search-title {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Movie rating */
+.movie-search-rating {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+
+/* Star rating buttons */
+.movie-search-rating button {
+    margin: 0.25rem;
+    padding: 0.4rem 0.75rem;
+    background-color: #444;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.movie-search-rating button:hover {
+    background-color: #666;
+}
