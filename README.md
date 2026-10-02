@@ -38,6 +38,6 @@ These projects provided practical experience with key AI methods such as search 
 This was a two-semester team project (Spring and Fall 2024) developed as part of the Software Engineering course at the Faculty of Information Technology, CTU in Prague. The project focused on building AKRMAT, a web application for generating and managing accreditation materials required by the university.I worked primarily on the backend, which was developed in Kotlin, with a strong emphasis on designing and implementing REST API endpoints.The code for this project is not included in the Git repository, as it is the intellectual property of the university and must remain private.
 
 ## Bachelor Thesis : Administration Interface for the University Survey
-The `bachelor-thesis` folder contains the full text of my bachelor thesis. Please note that it is **written in Slovak**, as required by the university.
+The `bachelor-thesis` folder contains the full text of my bachelor thesis. Please note that it is **written in Slovak**.
 
 The topic was the **administration interface of the university survey**, where students evaluate courses and teachers. I worked on it as a **fullstack** developer: the backend was built with **Spring Boot and Kotlin** on top of an **Oracle** database, including **PL/SQL** procedures on the database side, while the frontend was written in **Vue.js**. My task was to implement new functionality for the administration interface and to extend and update the existing **REST API** accordingly.
